@@ -1,0 +1,8 @@
+create table personalidades( id serial primary key,  nome varchar, historia varchar)
+
+CREATE TABLE `api`.`personalidades` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(200) NULL,
+  `historia` VARCHAR(700) NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
